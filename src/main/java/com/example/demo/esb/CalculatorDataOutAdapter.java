@@ -41,7 +41,7 @@ class CalculatorDataOutAdapter implements TestOutPort {
     public
     TestInResponse generateData(TestOutRequest testOutRequest) {
 
-        //simulateTimeOut503();
+      //  simulateTimeOut503();
         initializeVars();
         validateUrls(testOutRequest);
         generateDataFromUrls(testOutRequest);
